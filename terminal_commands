@@ -1,0 +1,5 @@
+uvicorn main:app --reload #For backend
+npm run dev
+pg_ctl -D /opt/homebrew/var/postgres -l logfile start
+psql postgres
+\q
